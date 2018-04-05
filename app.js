@@ -62,4 +62,4 @@ client.on('guildMemberRemove', member => {
     message.channel.sendMessage('bar');
   }
 });
- client.login("NDE5NjI2ODE1MTU4NjE2MDY0.DXy3cg.9lksdxDTIqGWTakOaCZdZbuT6U0");
+ client.login(process.env.token);
